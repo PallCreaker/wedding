@@ -1,5 +1,6 @@
 //color
-
+$white: #fff;
+$header: rgb(34, 34, 34);
 //select width
 
 //marin
@@ -38,6 +39,16 @@
     -moz-border-radius: $rad;
 }
 
+/* clearfix */
+.cf:before,
+.cf:after {content:""; display:block; overflow:hidden;}
+.cf:after {clear:both;}
+ /*For IE 6/7 (trigger hasLayout) */
+.cf {zoom: 1; clear: both;}
+.cl{clear: both}
+.fl{float: left}
+.fr{float: right}
+
 %ul{
     ul{
         @extend .cf;
@@ -53,10 +64,3 @@
     margin: 0 30px;
 }
 
-/* clearfix */
-.cf:before,
-.cf:after {content:""; display:block; overflow:hidden;}
-.cf:after {clear:both;}
- /*For IE 6/7 (trigger hasLayout) */
-.cf {zoom: 1; clear: both;}
-.cl{clear: both}

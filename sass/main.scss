@@ -1,2 +1,136 @@
-@import "setting";
+@import "common";
 //access
+
+
+header{
+    width: 100%;
+    .logo{
+        width: 200px;
+        float: left;
+        margin: 10px 0 0;
+    }
+    .top-bar{
+        @include mw(1000px);
+    }
+    .menu{
+        float: right;
+        ul{
+            @extend .cf;
+            margin-top: 19px;
+            li{
+                float: left;
+                padding-left: 46px;
+                a{
+                    @extend .g-font;
+                    @extend .italic;
+                    font-weight: bold;
+                    color: $header;
+                    font-size: 1.54em;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+    }
+}
+section{
+    @extend .cf;
+}
+section#top-view{
+    &.ytplayer-dance{
+        height: 91%; /* headerの部分が余計に多いから */
+    }
+    .bg-msg{
+        position: absolute;
+        bottom: 0px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #fff;
+        font-size: 72px;
+        letter-spacing: 12px;
+        width: 100%;
+        font-weight: normal;
+    }
+}
+section#about{
+    height: 50%; /* sectionに縦に分割だから */
+    .dance-msg{
+        @extend .cf;
+        width: 100%;
+        height: 100%;
+        img{width: 50%;height: 100%;float: left;}
+        .detail{
+            float: left;
+            width: 50%;
+            height: 100%;
+            > div{
+                margin: 10px;
+                padding: 10px;
+                border: 1px #fff solid;
+                display: table;
+                width: 91%;
+                height: 95%;
+                color: #fff;
+                > div{
+                    display: table-cell;
+                    vertical-align: middle;
+                    letter-spacing: 9px;
+                    font-size: 1.06em;
+                    > h2{width: 420px;}
+                    > p{
+                        margin-top: 40px;
+                        width: 420px;
+                        font-size: 1.13em;
+                    }
+                }
+            }
+            &.top{
+                background-color:rgb(230,173,164);
+            }
+            &.bottom{
+                background-color:rgb(240,211,129);
+            }
+        }
+    }
+}
+section#post{
+    background: url("../img/bg_cloth.png") repeat;
+    .head{
+        @include mw(506px);
+        padding-top: 20px;
+    }
+    ul.post-dance-movies{
+        width: 100%;
+        padding: 0;
+        margin-top: 30px;
+        li{
+            float: left;
+            width: 30%;
+            margin-left: 30px;
+            > iframe{
+                @include box_shadow(5px,3px,12px,0px, rgba(0, 0, 0, 0.6));
+            }
+            p.date {
+                margin-top: 15px;
+                font-weight: lighter;
+            }
+            h3 {
+                letter-spacing: -0.04em;
+                font-size: 1.1em;
+                > span{
+                    float: right;
+                    padding-right: 13px;
+                    font-size: 0.9em;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+}
+section#planner{
+    .ead{
+        background: url("../img/bg_pink.png") repeat-x;
+        height: 70px;
+        &:after{background: url("../img/bg_tri.png") ;}
+    }
+    .d-tri{@include mw(999px);}
+}

@@ -1,6 +1,5 @@
 @import "setting";
 
-.cl{clear: both}
 a{text-decoration: none}
 li{list-style:none;}
 dt{float: left;}
@@ -9,16 +8,34 @@ a:hover,input[type=submit]:hover,input[type=image]:hover {
     @include opacity(0.8);
 }
 
-.fl{float: left}
-.fr{float: right}
-.inner{width: 995px;margin: 0 auto;}
-html{height:100%}
+* {
+  margin: 0 auto;
+}
+
+html,
+body {
+  height: 100%;
+}
 body{
-    font-family: メイリオ,Meiryo,'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif;
     background-color: $white;
     margin: 0;
     padding: 0;
 }
+
+/* font */
+@font-face {
+    font-family: "kokoro";
+    src: url("../font/kokoro.woff") format('woff'),
+    url("../font/kokoro.ttf") format('truetype');
+}
+.kokoro {
+    font-family: 'kokoro', メイリオ, Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+.g-font{
+    font-family: 'Antic Didone', serif;
+}
+.italic{font-style: italic}
+
 #cover{
     display: none;
     position: absolute;
@@ -31,7 +48,7 @@ body{
     @include opacity(0.8);
 }
 
-//form
+/* form */
 input[type=text],input[type=password],textarea{
     padding: 4px;
     border: 1px solid rgb(214, 214, 214);
@@ -54,5 +71,5 @@ input[type=radio]{
 }
 select{
     font-size: 15px;
-border-radius: 10px;
+    border-radius: 10px;
 }
