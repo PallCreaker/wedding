@@ -1,0 +1,62 @@
+//color
+
+//select width
+
+//marin
+@mixin mw($width, $margin_bottom : 0px){
+    margin: 0 auto $margin_bottom;
+    width: $width;
+}
+
+@mixin opacity($alphavalue, $important : false) {
+    @if $important {
+        opacity: $alphavalue;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{ $alphavalue * 100 })"; // for IE 8
+        filter: alpha(opacity=#{ $alphavalue * 100 }); // for IE 5-7
+    }@else{
+        opacity: $alphavalue !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{ $alphavalue * 100 })" !important; // for IE 8
+        filter: alpha(opacity=#{ $alphavalue * 100 }) !important; // for IE 5-7
+    }
+}
+
+@mixin box_shadow($h-shadow ,$v-shadow , $blur, $spread, $color, $inset : false){
+    @if $inset {
+        box-shadow:$h-shadow $v-shadow  $blur $spread $color $inset;
+        -webkit-box-shadow:$h-shadow $v-shadow  $blur $spread $color $inset;
+        -moz-box-shadow:$h-shadow $v-shadow  $blur $spread $color $inset;
+    }@else{
+        box-shadow:$h-shadow $v-shadow  $blur $spread $color;
+        -webkit-box-shadow:$h-shadow $v-shadow  $blur $spread $color;
+        -moz-box-shadow:$h-shadow $v-shadow  $blur $spread $color;
+    }
+}
+
+@mixin radius($rad){
+    border-radius: $rad;
+    -webkit-border-radius: $rad;
+    -moz-border-radius: $rad;
+}
+
+%ul{
+    ul{
+        @extend .cf;
+        padding: 0;
+        li{
+            float: left;
+        }
+    }
+}
+
+%foot{
+    @extend .fl;
+    margin: 0 30px;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {content:""; display:block; overflow:hidden;}
+.cf:after {clear:both;}
+ /*For IE 6/7 (trigger hasLayout) */
+.cf {zoom: 1; clear: both;}
+.cl{clear: both}
