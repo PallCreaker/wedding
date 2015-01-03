@@ -1,21 +1,23 @@
 @charset "UTF-8";
 /* clearfix */
-.cf:before, header .menu ul:before, section:before, section#about .dance-msg:before,
+.cf:before, header .menu ul:before, section:before, section#about .dance-msg:before, section#planner:before, section#future dl:before,
 .cf:after,
 header .menu ul:after,
 section:after,
-section#about .dance-msg:after {
+section#about .dance-msg:after,
+section#planner:after,
+section#future dl:after {
   content: "";
   display: block;
   overflow: hidden;
 }
 
-.cf:after, header .menu ul:after, section:after, section#about .dance-msg:after {
+.cf:after, header .menu ul:after, section:after, section#about .dance-msg:after, section#planner:after, section#future dl:after {
   clear: both;
 }
 
 /*For IE 6/7 (trigger hasLayout) */
-.cf, header .menu ul, section, section#about .dance-msg {
+.cf, header .menu ul, section, section#about .dance-msg, section#planner, section#future dl {
   zoom: 1;
   clear: both;
 }
@@ -99,6 +101,15 @@ body {
   opacity: 0.8 !important;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)" !important;
   filter: alpha(opacity=80) !important;
+}
+
+/* marker */
+.m-yellow {
+  background: linear-gradient(transparent 40%, #f4df99 40%);
+}
+
+.m-red {
+  background: linear-gradient(transparent 40%, #ee9cc0 40%);
 }
 
 /* form */
@@ -228,12 +239,17 @@ section#about .dance-msg .detail.bottom {
 }
 
 section#post {
+  padding-bottom: 50px;
   background: url("../img/bg_cloth.png") repeat;
 }
 section#post .head {
   margin: 0 auto 0px;
   width: 506px;
   padding-top: 20px;
+}
+section#post .movies {
+  margin: 0 auto 0px;
+  width: 1200px;
 }
 section#post ul.post-dance-movies {
   width: 100%;
@@ -242,8 +258,8 @@ section#post ul.post-dance-movies {
 }
 section#post ul.post-dance-movies li {
   float: left;
-  width: 30%;
-  margin-left: 30px;
+  width: 26%;
+  margin-left: 66px;
 }
 section#post ul.post-dance-movies li > iframe {
   box-shadow: 5px 3px 12px 0px rgba(0, 0, 0, 0.6);
@@ -265,16 +281,186 @@ section#post ul.post-dance-movies li h3 > span {
   margin-top: 3px;
 }
 
-section#planner .ead {
+section#planner .head {
   background: url("../img/bg_pink.png") repeat-x;
-  height: 70px;
+  height: 66px;
 }
-section#planner .ead:after {
-  background: url("../img/bg_tri.png");
-}
-section#planner .d-tri {
+section#planner .head > div {
   margin: 0 auto 0px;
   width: 999px;
+}
+section#planner .menber-list {
+  margin-top: 90px;
+}
+section#planner .menber-list ul {
+  margin: 0 auto 0px;
+  width: 1000px;
+  padding-left: 134px;
+}
+section#planner .menber-list ul li {
+  width: 19%;
+  float: left;
+  position: relative;
+  margin-left: 66px;
+}
+section#planner .menber-list ul li > div {
+  text-align: center;
+  position: relative;
+}
+section#planner .menber-list ul li > div img.people {
+  border-radius: 190px;
+  -webkit-border-radius: 190px;
+  -moz-border-radius: 190px;
+  width: 190px;
+  height: 190px;
+}
+section#planner .menber-list ul li > div img.frame {
+  position: absolute;
+}
+section#planner .menber-list ul li > div img.line {
+  width: 100%;
+  height: 7px;
+}
+section#planner .menber-list ul li > div p.name {
+  margin-top: 8px;
+  font-size: 23px;
+  margin-bottom: -14px;
+}
+section#planner .menber-list ul li > div p.kana {
+  font-size: 18px;
+  margin-top: -4px;
+}
+section#planner .pink-bar {
+  margin-top: 50px;
+  background: url("../img/bg_pink.png") repeat-x;
+  height: 66px;
+  width: 100%;
+}
+
+section#contact {
+  margin-top: 40px;
+}
+section#contact .inner {
+  margin: 0 auto 0px;
+  width: 1000px;
+}
+section#contact .act {
+  position: relative;
+  float: left;
+  width: 40%;
+}
+section#contact .act img {
+  float: left;
+  position: relative;
+}
+section#contact .act img.bottom {
+  top: -65px;
+  left: 61px;
+}
+section#contact .detail {
+  float: left;
+  width: 60%;
+}
+section#contact .detail p.outline {
+  width: 395px;
+  margin-top: -60px;
+}
+section#contact .detail p.more {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 11px 0;
+}
+section#contact .detail p.more > a {
+  position: relative;
+  top: 4px;
+}
+section#contact .detail .tel {
+  margin: 0 auto 10px;
+  width: 480px;
+}
+section#contact .detail .inquiry {
+  width: 390px;
+  display: table;
+}
+section#contact .detail .inquiry img {
+  vertical-align: middle;
+}
+section#contact .detail .hana {
+  margin-top: -90px;
+}
+
+section#future {
+  margin-top: 40px;
+}
+section#future .inner {
+  margin: 0 auto 0px;
+  width: 900px;
+}
+section#future .head {
+  margin: 0 auto 0px;
+  width: 490px;
+}
+section#future dl {
+  margin-top: 40px;
+}
+section#future dl dd {
+  font-size: 1.6em;
+  width: 741px;
+  margin-left: 21px;
+  padding-top: 13px;
+}
+section#future .support {
+  font-size: 23px;
+  margin-top: 26px;
+}
+section#future .support p {
+  margin-left: 274px;
+}
+section#future .support p.company {
+  margin-left: 323px;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: #ceeef5;
+}
+footer .inner {
+  padding-top: 30px;
+  margin: 0 auto 0px;
+  width: 1000px;
+}
+footer .inner .phone {
+  margin: 0 auto 0px;
+  width: 430px;
+}
+footer .inner nav {
+  margin-top: 40px;
+}
+footer .inner nav ul {
+  margin: 0 auto 0px;
+  width: 700px;
+}
+footer .inner nav li {
+  float: left;
+  margin-left: 90px;
+  border-left: 1px solid #bababa;
+  padding-left: 16px;
+  margin-left: 16px;
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+footer .inner nav li a {
+  color: #000;
+}
+footer .inner nav li:first-child {
+  border-left: none;
+}
+footer .inner .copyright {
+  padding: 8px 0 38px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

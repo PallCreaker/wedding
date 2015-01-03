@@ -93,19 +93,21 @@ section#about{
     }
 }
 section#post{
+    padding-bottom: 50px;
     background: url("../img/bg_cloth.png") repeat;
     .head{
         @include mw(506px);
         padding-top: 20px;
     }
+    .movies{@include mw(1200px);}
     ul.post-dance-movies{
         width: 100%;
         padding: 0;
         margin-top: 30px;
         li{
             float: left;
-            width: 30%;
-            margin-left: 30px;
+            width: 26%;
+            margin-left: 66px;
             > iframe{
                 @include box_shadow(5px,3px,12px,0px, rgba(0, 0, 0, 0.6));
             }
@@ -127,10 +129,138 @@ section#post{
     }
 }
 section#planner{
-    .ead{
+    @extend .cf;
+    .head{
         background: url("../img/bg_pink.png") repeat-x;
-        height: 70px;
-        &:after{background: url("../img/bg_tri.png") ;}
+        height: 66px;
+        > div{@include mw(999px);}
     }
-    .d-tri{@include mw(999px);}
+    .menber-list{
+        margin-top: 90px;
+        ul{
+            @include mw(1000px);
+            padding-left: 134px;
+            li{
+                width: 19%;
+                float: left;
+                position: relative;
+                margin-left: 66px;
+                >div{
+                    text-align: center;
+                    position: relative;
+                    img.people{
+                        @include radius(190px);
+                        width: 190px;
+                        height: 190px;
+                       
+                    }
+                    img.frame{
+                        position: absolute;
+                    }
+                    img.line{width: 100%;height: 7px;}
+                    p.name{margin-top: 8px;font-size: 23px;margin-bottom: -14px;}
+                    p.kana{font-size: 18px;margin-top: -4px;}
+                }
+            }
+        }
+    }
+    .pink-bar{
+        margin-top:50px;
+        background: url("../img/bg_pink.png") repeat-x;
+        height: 66px;
+        width: 100%;
+    }
+}
+section#contact{
+    margin-top: 40px;
+    .inner{
+        @include mw(1000px);
+    }
+    .act{
+        position: relative;
+        float: left;
+        width: 40%;
+        img{
+            float: left;
+            position: relative;
+            &.bottom{top: -65px;left: 61px;}
+        }
+    }
+    .detail{
+        float: left;
+        width: 60%;
+        p.outline {
+            width: 395px;
+            margin-top: -60px;
+        }
+        p.more{
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            margin: 11px 0;
+            > a{position: relative;top: 4px;}
+        }
+        .tel{@include mw(480px, 10px);}
+        .inquiry{
+            width: 390px;
+            display: table;
+            img{vertical-align: middle;}
+        }
+        .hana{margin-top: -90px;}
+    }
+}
+section#future{
+    margin-top: 40px;
+    .inner{
+        @include mw(900px);
+    }
+    .head{@include mw(490px);}
+    dl{
+        @extend .cf;
+        margin-top:40px;
+        dd{
+            font-size: 1.6em;
+            width: 741px;
+            margin-left: 21px;
+            padding-top: 13px;
+        }
+    }
+    .support{
+        font-size: 23px;
+        margin-top: 26px;
+        p{margin-left: 274px;}
+        p.company{margin-left: 323px;}
+    }
+}
+footer{
+    margin-top:80px;
+    background-color:rgb(206,238,245);
+    .inner{
+        padding-top: 30px;
+        @include mw(1000px);
+        .phone{@include mw(430px);}
+        nav{
+            margin-top: 40px;
+            ul{@include mw(700px)}
+            li{
+                a{color: #000;}
+                float: left;
+                margin-left: 90px;
+                border-left:1px solid rgb(186, 186, 186);
+                padding-left:16px;
+                margin-left:16px;
+                display: -moz-inline-box;
+                display: inline-block;
+                *display: inline;
+                *zoom: 1;
+                &:first-child{
+                    border-left:none;
+                }
+            }
+        }
+        .copyright{
+            padding: 8px 0 38px;
+            text-align: center;
+        }
+    }
 }

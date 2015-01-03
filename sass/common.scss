@@ -47,6 +47,13 @@ body{
     z-index: 1001;
     @include opacity(0.8);
 }
+/* marker */
+.m-yellow{
+    background: linear-gradient(transparent 40%, rgb(244,223,153) 40%);
+}
+.m-red{
+    background: linear-gradient(transparent 40%, rgb(238,156,192) 40%);
+}
 
 /* form */
 input[type=text],input[type=password],textarea{
