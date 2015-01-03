@@ -47,7 +47,7 @@
                 autoPlay:true,
                 showControls:true, //コントロールパネル表示
                 loop:true, // ループ（繰り返し）させる
-                mute:true, //music
+                mute:false, //music
                 startAt:0,
                 opacity:1,
                 optimizeDisplay:true, //will fit the video size into the window size optimizing the view.
