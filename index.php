@@ -127,27 +127,27 @@
                     <div>
                         <img class="frame" src="img/intro_planner.png" alt="planner">
                         <img class="people" src="img/p_d/riku.png" alt="リク">
-                        <p class="name">菊川　諒</p>
+                        <p class="name">菊川　諒人</p>
                         <img class="line" src="img/line_blue.png" alt="line">
-                        <p class="kana">Kikukawa Ryo</p>
+                        <p class="kana">Kikukawa Ryoto</p>
                     </div>
                 </li>
                 <li>
                     <div>
                         <img class="frame" src="img/intro_planner.png" alt="planner">
                         <img class="people" src="img/p_d/riku.png" alt="リク">
-                        <p class="name">菊川　諒</p>
+                        <p class="name">菊川　諒人</p>
                         <img class="line" src="img/line_blue.png" alt="line">
-                        <p class="kana">Kikukawa Ryo</p>
+                        <p class="kana">Kikukawa Ryoto</p>
                     </div>
                 </li>
                 <li>
                     <div>
                         <img class="frame" src="img/intro_planner.png" alt="planner">
                         <img class="people" src="img/p_d/riku.png" alt="リク">
-                        <p class="name">菊川　諒</p>
+                        <p class="name">菊川　諒人</p>
                         <img class="line" src="img/line_blue.png" alt="line">
-                        <p class="kana">Kikukawa Ryo</p>
+                        <p class="kana">Kikukawa Ryoto</p>
                     </div>
                 </li>
             </ul>
@@ -158,27 +158,27 @@
                     <div>
                         <img class="frame" src="img/intro_dancer.png" alt="dancer">
                         <img class="people" src="img/p_d/riku.png" alt="リク">
-                        <p class="name">菊川　諒</p>
+                        <p class="name">菊川　諒人</p>
                         <img class="line" src="img/line_purple.png" alt="line">
-                        <p class="kana">Kikukawa Ryo</p>
+                        <p class="kana">Kikukawa Ryoto</p>
                     </div>
                 </li>
                 <li>
                     <div>
                         <img class="frame" src="img/intro_dancer.png" alt="dancer">
                         <img class="people" src="img/p_d/riku.png" alt="リク">
-                        <p class="name">菊川　諒</p>
+                        <p class="name">菊川　諒人</p>
                         <img class="line" src="img/line_purple.png" alt="line">
-                        <p class="kana">Kikukawa Ryo</p>
+                        <p class="kana">Kikukawa Ryoto</p>
                     </div>
                 </li>
                 <li>
                     <div>
                         <img class="frame" src="img/intro_dancer.png" alt="dancer">
                         <img class="people" src="img/p_d/riku.png" alt="リク">
-                        <p class="name">菊川　諒</p>
+                        <p class="name">菊川　諒人</p>
                         <img class="line" src="img/line_purple.png" alt="line">
-                        <p class="kana">Kikukawa Ryo</p>
+                        <p class="kana">Kikukawa Ryoto</p>
                     </div>
                 </li>
             </ul>
