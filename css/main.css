@@ -174,11 +174,7 @@ header .menu ul li a {
   letter-spacing: 3px;
 }
 
-section#top-view.ytplayer-dance {
-  height: 91%;
-  /* headerの部分が余計に多いから */
-}
-section#top-view .bg-msg {
+.bg-msg {
   position: absolute;
   bottom: 0px;
   text-align: center;
@@ -188,6 +184,11 @@ section#top-view .bg-msg {
   letter-spacing: 12px;
   width: 100%;
   font-weight: normal;
+}
+
+section#top-view.ytplayer-dance {
+  height: 91%;
+  /* headerの部分が余計に多いから */
 }
 
 section#about {
@@ -290,44 +291,44 @@ section#planner .head > div {
   margin: 0 auto 0px;
   width: 999px;
 }
-section#planner .menber-list {
+section#planner .member-list {
   margin-top: 90px;
 }
-section#planner .menber-list ul {
+section#planner .member-list ul {
   margin: 0 auto 0px;
   width: 1000px;
   padding-left: 134px;
 }
-section#planner .menber-list ul li {
+section#planner .member-list ul li {
   width: 19%;
   float: left;
   position: relative;
   margin-left: 66px;
 }
-section#planner .menber-list ul li > div {
+section#planner .member-list ul li > div {
   text-align: center;
   position: relative;
 }
-section#planner .menber-list ul li > div img.people {
+section#planner .member-list ul li > div img.people {
   border-radius: 190px;
   -webkit-border-radius: 190px;
   -moz-border-radius: 190px;
   width: 190px;
   height: 190px;
 }
-section#planner .menber-list ul li > div img.frame {
+section#planner .member-list ul li > div img.frame {
   position: absolute;
 }
-section#planner .menber-list ul li > div img.line {
+section#planner .member-list ul li > div img.line {
   width: 100%;
   height: 7px;
 }
-section#planner .menber-list ul li > div p.name {
+section#planner .member-list ul li > div p.name {
   margin-top: 8px;
   font-size: 23px;
   margin-bottom: -14px;
 }
-section#planner .menber-list ul li > div p.kana {
+section#planner .member-list ul li > div p.kana {
   font-size: 18px;
   margin-top: -4px;
 }
@@ -466,6 +467,75 @@ footer .inner nav li:first-child {
 footer .inner .copyright {
   padding: 8px 0 38px;
   text-align: center;
+}
+
+section#suprise-dance {
+  width: 100%;
+  height: 60%;
+  background: url("../img/top-view.jpg") no-repeat;
+  background-size: cover;
+  background-position-y: -264px;
+  position: relative;
+}
+section#suprise-dance .bg-msg {
+  top: 33px;
+  right: 0px;
+  width: 54%;
+  font-size: 1.4em;
+  padding: 29px;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.5);
+  height: 70%;
+}
+section#suprise-dance .bg-msg h2 {
+  font-size: 1.8em;
+  letter-spacing: 24px;
+}
+section#suprise-dance .bg-msg p {
+  font-size: 0.78em;
+  letter-spacing: 6px;
+  margin-top: 44px;
+  line-height: 48px;
+}
+
+section#sean {
+  margin-top: 30px;
+}
+section#sean .use {
+  margin: 0 auto 0px;
+  width: 750px;
+}
+
+section#flow {
+  margin-top: 30px;
+}
+section#flow .head {
+  margin: 0 auto 0px;
+  width: 483px;
+}
+section#flow .flow {
+  width: 1000px;
+  padding-top: 50px;
+}
+section#flow .flow ul {
+  padding: 0;
+}
+section#flow .flow ul:last-child {
+  margin-top: 30px;
+}
+section#flow .flow ul li {
+  float: left;
+  position: relative;
+  width: 255px;
+  margin-left: 60px;
+}
+section#flow .flow ul li img.f-icon {
+  position: relative;
+}
+section#flow .flow ul li img.title {
+  position: absolute;
+  top: 76px;
+  left: 49px;
 }
 
 /*# sourceMappingURL=main.css.map */
