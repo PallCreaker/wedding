@@ -1,3 +1,4 @@
+<?php $page = 'top'; ?>
 <?php include 'header.php' ?>
 <section id="top-view" class="ytplayer-dance">
     <?php // https://github.com/pupunzi/jquery.mb.YTPlayer/wiki ?>
@@ -82,7 +83,7 @@
     <div class="head">
         <div><img src="img/p_d.png" alt="プランナー＆ダンサー紹介"></div>
     </div>
-    <div class="planner menber-list">
+    <div class="planner member-list">
         <ul class="cf">
             <li>
                 <div>
@@ -146,24 +147,6 @@
     </div>
     <div class="pink-bar"></div>
 </section>
-<section id="contact">
-    <div class="inner cf">
-        <div class="act">
-            <img class="top" src="img/groom_picture_top.png" height="320" width="285" alt="">
-            <img class="bottom" src="img/bride_picture_bottom.png" height="324" width="284" alt="">
-        </div>
-        <div class="detail">
-            <img src="img/bg_flower_top.png" alt="花">
-            <p class="outline">コンセプト設計、曲編集、ダンサーキャスティング、ダンスの振り付けなどのお客様のご要望に合わせて行うことができます。</p>
-            <p class="more">価格・実施までの流れは <a href="./price_and_flow"><img src="img/btn_more.png"  alt="こちら"></a></p>
-            <div class="tel"><img src="img/tel.png" alt="お電話"></div>
-            <div class="inquiry">
-                <a href="./price_and_flow"><p><img src="img/pc.png" alt="">Webからのお問い合せは こちらから</p></a>
-            </div>
-            <img class="hana" src="img/bg_flower_bottom.png" alt="花">
-        </div>
-    </div>
-</section>
 <section id="future">
     <div class="inner">
         <div class="head"><img src="img/future.png" alt="弊社の３つの特徴"></div>
@@ -186,6 +169,9 @@
                 株式会社 INNOVATION DESIGN</p>
             </div>
         </div>
+    </div>
+    <div class="next">
+            <p class="more">価格・実施までの流れ、お問い合わせは <a href="./price_and_flow"><img src="img/btn_more.png"  alt="こちら"></a></p>
     </div>
 </section>
 <?php include 'footer.php' ?>

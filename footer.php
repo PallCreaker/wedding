@@ -5,7 +5,7 @@
                 <ul class="cf">
                     <li><a href="">会社概要</a></li> 
                     <li><a href="#about">Dance Weddingについて</a></li>
-                    <li><a href="#dancer">所属ダンサー</a></li>
+                    <li><a href="#planner">所属ダンサー</a></li>
                     <li><a href="#contact">お問い合わせ</a></li>
                 </ul>
             </nav>

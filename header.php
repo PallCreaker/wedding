@@ -20,6 +20,16 @@
       $(function(){
           $(".player").mb_YTPlayer();
         });
+        $(function(){
+            $('a[href^=#]').click(function(){
+                var speed = 700;
+                var href= $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top;
+                $("html, body").animate({scrollTop:position}, speed, "swing");
+                return false;
+            });
+        });
     </script>
     <link href="YTPlayer-2.7.8/css/YTPlayer.css" media="all" rel="stylesheet" type="text/css">
 </head>
@@ -29,11 +39,30 @@
             <h1 class="logo"><a href="./"><img src="img/logo.png" alt="dance wedding"></a></h1>
             <nav class="menu">
                 <ul>
-                    <li><a href="#top">Top</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Post">Post</a></li>
-                    <li><a href="#Planner">Planner</a></li>
-                    <li><a href="#Contact">Conact</a></li>
+                    <?php if($page == 'top'): ?>
+                        <li><a href="#about">About</a></li>
+                    <?php else: ?>
+                        <li><a href="./#about">About</a></li>
+                    <?php endif; ?>
+                    <?php if($page == 'top'): ?>
+                        <li><a href="#post">Record</a></li>
+                    <?php else: ?>
+                        <li><a href="./#post">Record</a></li>
+                    <?php endif; ?>
+                    <?php if($page == 'top'): ?>
+                        <li><a href="#planner">Planner</a></li>
+                    <?php else: ?>
+                        <li><a href="./#planner">Planner</a></li>
+                    <?php endif; ?>
+
+                    <li><a href="./price_and_flow">Price&Flow</a></li>
+
+                    <?php if($page == 'top'): ?>
+                        <li><a href="./price_and_flow#contact">Conact</a></li>
+                    <?php else: ?>
+                        <li><a href="#contact">Conact</a></li>
+                    <?php endif; ?>
+                    
                 </ul>
             </nav>
         </div>

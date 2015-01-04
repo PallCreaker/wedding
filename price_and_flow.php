@@ -1,3 +1,4 @@
+<?php $page = 'price_and_flow'; ?>
 <?php include 'header.php' ?>
 <section id="suprise-dance">
     <div class="bg-msg">
@@ -68,13 +69,30 @@
     </div>
 </section>
 <section id="price">
-        <div class="table">
-            <table>
-
-            </table>
+        <div class="table"><img src="img/content.png" alt="内容"></div>
+</section>
+<section id="contact">
+    <div class="inner cf">
+        <div class="act">
+            <img class="top" src="img/groom_picture_top.png" height="320" width="285" alt="">
+            <img class="bottom" src="img/bride_picture_bottom.png" height="324" width="284" alt="">
         </div>
+        <div class="detail">
+            <img src="img/bg_flower_top.png" alt="花">
+            <p class="outline">コンセプト設計、曲編集、ダンサーキャスティング、ダンスの振り付けなどのお客様のご要望に合わせて行うことができます。</p>
+            
+            <div class="tel"><img src="img/tel.png" alt="お電話"></div>
+            <div class="inquiry">
+                <a href="./price_and_flow">
+                    <p>
+                        <img src="img/pc.png" alt="">お問い合せは<img src="img/btn_more.png"  alt="こちら">
+                    </p>
+                </a>
+            </div>
+            <img class="hana" src="img/bg_flower_bottom.png" alt="花">
+        </div>
+    </div>
 </section>
 <section id="form">
-    
 </section>
 <?php include 'footer.php' ?>
