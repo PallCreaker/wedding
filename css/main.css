@@ -181,10 +181,6 @@ header .menu ul li a {
   /* IE6対策 */
   top: 50%;
   left: 50%;
-  margin-top: -XXpx;
-  /* heightの半分のマイナス値 */
-  margin-left: -XXXpx;
-  /* widthの半分のマイナス値 */
   z-index: 100;
 }
 

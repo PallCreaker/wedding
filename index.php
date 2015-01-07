@@ -6,8 +6,9 @@
     <?php // https://github.com/pupunzi/jquery.mb.YTPlayer/wiki ?>
     <a id="bgndVideo" class="player" 
         data-property="{
-            videoURL:' //youtu.be/mGJD1kRwi9w',
+            videoURL:'//youtu.be/mGJD1kRwi9w',
             containment:'.ytplayer-dance',
+            startAt:3,
             autoPlay:true,
             showControls:true, //コントロールパネル表示
             loop:true, // ループ（繰り返し）させる

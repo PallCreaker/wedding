@@ -50,8 +50,7 @@
           var pageH = $("#top-view").height();
           
           $("#fade").css("height", pageH).delay(900).fadeOut(80);
-          $("#loading").delay(4000).fadeOut(300);
-          $(window).off('.noScroll');
+          $("#loading").delay(2000).fadeOut(300);
           $("#top-view").css("display", "block");
         });
     </script>
