@@ -6,7 +6,7 @@
     <?php // https://github.com/pupunzi/jquery.mb.YTPlayer/wiki ?>
     <a id="bgndVideo" class="player" 
         data-property="{
-            videoURL:'//youtu.be/BT0hj6VTFzU',
+            videoURL:' //youtu.be/mGJD1kRwi9w',
             containment:'.ytplayer-dance',
             autoPlay:true,
             showControls:true, //コントロールパネル表示
