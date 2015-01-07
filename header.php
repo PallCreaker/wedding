@@ -17,8 +17,11 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
     <script type="text/javascript" src="./YTPlayer-2.7.8/inc/jquery.mb.YTPlayer.js"></script>
     <script>
-      $(function(){
-          $(".player").mb_YTPlayer();
+        $(function(){
+                $(".player").mb_YTPlayer();
+        });
+        $(window).on('touchmove.noScroll', function(e) {
+            e.preventDefault();
         });
         $(function(){
             $('a[href^=#]').click(function(){
@@ -29,6 +32,17 @@
                 $("html, body").animate({scrollTop:position}, speed, "swing");
                 return false;
             });
+        });
+        $('head').append(
+          '<style type="text/css">#top-view { display: none;height: 100%; } #fade, #loading { display: block; }</style>'
+        );
+        $.event.add(window,"load",function() { // 全ての読み込み完了後に呼ばれる関数
+          var pageH = $("#top-view").height();
+          
+          $("#fade").css("height", pageH).delay(900).fadeOut(80);
+          $("#loading").delay(4000).fadeOut(300);
+          $(window).off('.noScroll');
+          $("#top-view").css("display", "block");
         });
     </script>
     <link href="YTPlayer-2.7.8/css/YTPlayer.css" media="all" rel="stylesheet" type="text/css">

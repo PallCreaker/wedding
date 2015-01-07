@@ -1,5 +1,7 @@
 <?php $page = 'top'; ?>
 <?php include 'header.php' ?>
+<div id="loading"><img src="img/loader.gif"></div>
+<div id="fade"></div>
 <section id="top-view" class="ytplayer-dance">
     <?php // https://github.com/pupunzi/jquery.mb.YTPlayer/wiki ?>
     <a id="bgndVideo" class="player" 
@@ -89,27 +91,27 @@
                 <div>
                     <img class="frame" src="img/intro_planner.png" alt="planner">
                     <img class="people" src="img/p_d/riku.png" alt="リク">
-                    <p class="name">菊川　諒人</p>
+                    <p class="name">りく</p>
                     <img class="line" src="img/line_blue.png" alt="line">
-                    <p class="kana">Kikukawa Ryoto</p>
+                    <p class="kana">Riku</p>
                 </div>
             </li>
             <li>
                 <div>
                     <img class="frame" src="img/intro_planner.png" alt="planner">
-                    <img class="people" src="img/p_d/riku.png" alt="リク">
-                    <p class="name">菊川　諒人</p>
+                    <img class="people" src="img/p_d/koba.png" alt="小林駿">
+                    <p class="name">小林　駿</p>
                     <img class="line" src="img/line_blue.png" alt="line">
-                    <p class="kana">Kikukawa Ryoto</p>
+                    <p class="kana">Kobayashi Shun</p>
                 </div>
             </li>
             <li>
                 <div>
                     <img class="frame" src="img/intro_planner.png" alt="planner">
-                    <img class="people" src="img/p_d/riku.png" alt="リク">
-                    <p class="name">菊川　諒人</p>
+                    <img class="people" src="img/p_d/han.png" alt="リク">
+                    <p class="name">樊　旭</p>
                     <img class="line" src="img/line_blue.png" alt="line">
-                    <p class="kana">Kikukawa Ryoto</p>
+                    <p class="kana">Han Akira</p>
                 </div>
             </li>
         </ul>
@@ -119,28 +121,28 @@
             <li>
                 <div>
                     <img class="frame" src="img/intro_dancer.png" alt="dancer">
-                    <img class="people" src="img/p_d/riku.png" alt="リク">
-                    <p class="name">菊川　諒人</p>
+                    <img class="people" src="img/p_d/tama.png" alt="tama">
+                    <p class="name">Tama</p>
                     <img class="line" src="img/line_purple.png" alt="line">
-                    <p class="kana">Kikukawa Ryoto</p>
+                    <p class="kana">Tama</p>
                 </div>
             </li>
             <li>
                 <div>
                     <img class="frame" src="img/intro_dancer.png" alt="dancer">
-                    <img class="people" src="img/p_d/riku.png" alt="リク">
-                    <p class="name">菊川　諒人</p>
+                    <img class="people" src="img/p_d/masaki.png" alt="まさき">
+                    <p class="name">まさき</p>
                     <img class="line" src="img/line_purple.png" alt="line">
-                    <p class="kana">Kikukawa Ryoto</p>
+                    <p class="kana">Masaki</p>
                 </div>
             </li>
             <li>
                 <div>
                     <img class="frame" src="img/intro_dancer.png" alt="dancer">
-                    <img class="people" src="img/p_d/riku.png" alt="リク">
-                    <p class="name">菊川　諒人</p>
+                    <img class="people" src="img/p_d/yoshimai.png" alt="yoshimai">
+                    <p class="name">よしまい</p>
                     <img class="line" src="img/line_purple.png" alt="line">
-                    <p class="kana">Kikukawa Ryoto</p>
+                    <p class="kana">Yoshimai</p>
                 </div>
             </li>
         </ul>
