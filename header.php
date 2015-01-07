@@ -5,10 +5,20 @@
     <meta http-equiv="content-script-type" content="text/javascript">
     <meta http-equiv="content-style-type" content="text/css">
     <meta charset="UTF-8">
-    <title>Dance Wedding -ostance-</title>
+    <title>ダンス・フラッシュモブ（dance,FlashMob）Dance Weddingページ　−　株式会社オースタンスホームページ | 株式会社オースタンスのホームページ</title>
     <meta name="author" content="Ostance">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="ダンス、フラッシュモブなら株式会社オースタンス。結婚式、披露宴、2次会でのサプライズとしてフラッシュモブによるダンスの企画・運営を行っています。無料見積り実施中です。">
+    <meta name="keywords" content="結婚式フラッシュモブ,サプライズ,サブライズダンス,ダンス,結婚式,surprise,dance,flashmob">
+    <link rel="canonical" href="http://wedding.ostance.com/" />
+    <meta property="og:title" content="ダンス・フラッシュモブ（dance,FlashMob）Dance Weddingページ　−　株式会社オースタンスホームページ | 株式会社オースタンスのホームページ" />
+    <meta property="og:type" content="activity" />
+    <meta property="og:url" content="http://wedding.ostance.com/" />
+    <meta property="og:image" content="img/logo.png" />
+    <meta property="og:site_name" content="株式会社オースタンスのホームページ" />
+    <meta property="og:description" content="ダンス、フラッシュモブなら株式会社オースタンス。結婚式、披露宴、2次会でのサプライズとしてフラッシュモブによるダンスの企画・運営を行っています。無料見積り実施中です。" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="ダンス、フラッシュモブなら株式会社オースタンス。結婚式、披露宴、2次会でのサプライズとしてフラッシュモブによるダンスの企画・運営を行っています。無料見積り実施中です。" />
+
     <link rel="shortcut icon" href="img/common/favicon.ico">
     <link href="./css/normalize.css" rel="stylesheet" type="text/css">
     <link href="./css/main.css" rel="stylesheet" type="text/css">

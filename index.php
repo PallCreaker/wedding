@@ -17,9 +17,9 @@
             optimizeDisplay:true, //will fit the video size into the window size optimizing the view.
         }" title="dance wedding" style="position: relaticve;display:none;background-image:none">
     </a>
-    <div class="bg-msg">
+    <h1 class="bg-msg">
         <span class="g-font italic">Dance Wedding</span>
-    </div>
+    </h1>
 </section>
 <section id="about">
     <div class="dance-msg">
