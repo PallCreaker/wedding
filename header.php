@@ -33,7 +33,7 @@
     </script>
     <link href="YTPlayer-2.7.8/css/YTPlayer.css" media="all" rel="stylesheet" type="text/css">
 </head>
-<body class="kokoro">
+<body class="kokoro <?php echo $page ?>">
     <header>
         <div class="top-bar cf">
             <h1 class="logo"><a href="./"><img src="img/logo.png" alt="dance wedding"></a></h1>
@@ -57,10 +57,10 @@
 
                     <li><a href="./price_and_flow">Price&Flow</a></li>
 
-                    <?php if($page == 'top'): ?>
-                        <li><a href="./price_and_flow#contact">Conact</a></li>
-                    <?php else: ?>
+                    <?php if($page == 'price_and_flow'): ?>
                         <li><a href="#contact">Conact</a></li>
+                    <?php else: ?>
+                        <li><a href="./price_and_flow#contact">Conact</a></li>
                     <?php endif; ?>
                     
                 </ul>

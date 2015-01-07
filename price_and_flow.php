@@ -83,7 +83,7 @@
             
             <div class="tel"><img src="img/tel.png" alt="お電話"></div>
             <div class="inquiry">
-                <a href="./price_and_flow">
+                <a href="./contact">
                     <p>
                         <img src="img/pc.png" alt="">お問い合せは<img src="img/btn_more.png"  alt="こちら">
                     </p>

@@ -200,6 +200,9 @@ section#contact{
             width: 390px;
             display: table;
             img{vertical-align: middle;}
+            a:hover p {
+                opacity: 0.4;
+            }
         }
         .hana{margin-top: -90px;position: relative;z-index: -1}
     }
@@ -338,5 +341,18 @@ section#form{
             }
             
         }
+    }
+}
+section#contact-form{
+    .d-f{
+        padding-top: 50px;
+        @include mw(400px);
+    }
+    >iframe{
+        display:block;
+    }
+    .head img{
+        vertical-align: middle;
+        padding-right:20px;
     }
 }
