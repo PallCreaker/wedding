@@ -469,6 +469,9 @@ footer .inner .copyright {
   padding: 8px 0 38px;
   text-align: center;
 }
+footer .inner .copyright a {
+  color: black;
+}
 
 section#suprise-dance {
   width: 100%;
